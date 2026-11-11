@@ -1,797 +1,801 @@
 {
-  "schemaVersion": 1,
-  "exact": true,
-  "source": "initial-uploaded-repentance-plus-save",
-  "updatedAt": null,
-  "saveModifiedAt": null,
-  "saveSlot": 1,
-  "achievementsUnlocked": 392,
-  "achievementsTotal": 641,
-  "hardMarksCompleted": 170,
-  "hardMarksTotal": 408,
-  "charactersUnlocked": 30,
-  "challengesCompleted": 17,
-  "challengesTotal": 45,
-  "characters": [
-    {
-      "id": "char-0",
-      "name": "Isaac",
-      "unlocked": true,
-      "hardCompleted": 12,
-      "goals": []
-    },
-    {
-      "id": "char-1",
-      "name": "Magdalene",
-      "unlocked": true,
-      "hardCompleted": 11,
-      "goals": [
-        "greedier"
-      ]
-    },
-    {
-      "id": "char-2",
-      "name": "Cain",
-      "unlocked": true,
-      "hardCompleted": 11,
-      "goals": [
-        "mother"
-      ]
-    },
-    {
-      "id": "char-3",
-      "name": "Judas",
-      "unlocked": true,
-      "hardCompleted": 11,
-      "goals": [
-        "mother"
-      ]
-    },
-    {
-      "id": "char-4",
-      "name": "???",
-      "unlocked": true,
-      "hardCompleted": 11,
-      "goals": [
-        "mother"
-      ]
-    },
-    {
-      "id": "char-5",
-      "name": "Eve",
-      "unlocked": true,
-      "hardCompleted": 11,
-      "goals": [
-        "mother"
-      ]
-    },
-    {
-      "id": "char-6",
-      "name": "Samson",
-      "unlocked": true,
-      "hardCompleted": 10,
-      "goals": [
-        "greedier",
-        "mother"
-      ]
-    },
-    {
-      "id": "char-7",
-      "name": "Azazel",
-      "unlocked": true,
-      "hardCompleted": 12,
-      "goals": []
-    },
-    {
-      "id": "char-8",
-      "name": "Lazarus",
-      "unlocked": true,
-      "hardCompleted": 8,
-      "goals": [
-        "bossrush",
-        "megasatan",
-        "greedier",
-        "mother"
-      ]
-    },
-    {
-      "id": "char-9",
-      "name": "Eden",
-      "unlocked": true,
-      "hardCompleted": 9,
-      "goals": [
-        "bossrush",
-        "greedier",
-        "hush"
-      ]
-    },
-    {
-      "id": "char-10",
-      "name": "The Lost",
-      "unlocked": true,
-      "hardCompleted": 8,
-      "goals": [
-        "bossrush",
-        "greedier",
-        "mother",
-        "beast"
-      ]
-    },
-    {
-      "id": "char-11",
-      "name": "Lilith",
-      "unlocked": true,
-      "hardCompleted": 8,
-      "goals": [
-        "isaac",
-        "bluebaby",
-        "megasatan",
-        "mother"
-      ]
-    },
-    {
-      "id": "char-12",
-      "name": "Keeper",
-      "unlocked": false,
-      "hardCompleted": 0,
-      "goals": [
-        "heart",
-        "isaac",
-        "satan",
-        "bossrush",
-        "bluebaby",
-        "lamb",
-        "megasatan",
-        "greedier",
-        "hush",
-        "delirium",
-        "mother",
-        "beast"
-      ]
-    },
-    {
-      "id": "char-13",
-      "name": "Apollyon",
-      "unlocked": true,
-      "hardCompleted": 8,
-      "goals": [
-        "bossrush",
-        "greedier",
-        "hush",
-        "mother"
-      ]
-    },
-    {
-      "id": "char-14",
-      "name": "The Forgotten",
-      "unlocked": true,
-      "hardCompleted": 10,
-      "goals": [
-        "greedier",
-        "mother"
-      ]
-    },
-    {
-      "id": "char-15",
-      "name": "Bethany",
-      "unlocked": true,
-      "hardCompleted": 6,
-      "goals": [
-        "bossrush",
-        "megasatan",
-        "greedier",
-        "hush",
-        "mother",
-        "beast"
-      ]
-    },
-    {
-      "id": "char-16",
-      "name": "Jacob & Esau",
-      "unlocked": true,
-      "hardCompleted": 3,
-      "goals": [
-        "satan",
-        "bluebaby",
-        "lamb",
-        "megasatan",
-        "greedier",
-        "hush",
-        "delirium",
-        "mother",
-        "beast"
-      ]
-    },
-    {
-      "id": "char-17",
-      "name": "Tainted Isaac",
-      "unlocked": true,
-      "hardCompleted": 10,
-      "goals": [
-        "greedier",
-        "mother"
-      ]
-    },
-    {
-      "id": "char-18",
-      "name": "Tainted Magdalene",
-      "unlocked": true,
-      "hardCompleted": 0,
-      "goals": [
-        "heart",
-        "isaac",
-        "satan",
-        "bossrush",
-        "bluebaby",
-        "lamb",
-        "megasatan",
-        "greedier",
-        "hush",
-        "delirium",
-        "mother",
-        "beast"
-      ]
-    },
-    {
-      "id": "char-19",
-      "name": "Tainted Cain",
-      "unlocked": true,
-      "hardCompleted": 0,
-      "goals": [
-        "heart",
-        "isaac",
-        "satan",
-        "bossrush",
-        "bluebaby",
-        "lamb",
-        "megasatan",
-        "greedier",
-        "hush",
-        "delirium",
-        "mother",
-        "beast"
-      ]
-    },
-    {
-      "id": "char-20",
-      "name": "Tainted Judas",
-      "unlocked": true,
-      "hardCompleted": 2,
-      "goals": [
-        "isaac",
-        "satan",
-        "bossrush",
-        "bluebaby",
-        "lamb",
-        "megasatan",
-        "greedier",
-        "delirium",
-        "mother",
-        "beast"
-      ]
-    },
-    {
-      "id": "char-21",
-      "name": "Tainted ???",
-      "unlocked": true,
-      "hardCompleted": 0,
-      "goals": [
-        "heart",
-        "isaac",
-        "satan",
-        "bossrush",
-        "bluebaby",
-        "lamb",
-        "megasatan",
-        "greedier",
-        "hush",
-        "delirium",
-        "mother",
-        "beast"
-      ]
-    },
-    {
-      "id": "char-22",
-      "name": "Tainted Eve",
-      "unlocked": true,
-      "hardCompleted": 0,
-      "goals": [
-        "heart",
-        "isaac",
-        "satan",
-        "bossrush",
-        "bluebaby",
-        "lamb",
-        "megasatan",
-        "greedier",
-        "hush",
-        "delirium",
-        "mother",
-        "beast"
-      ]
-    },
-    {
-      "id": "char-23",
-      "name": "Tainted Samson",
-      "unlocked": true,
-      "hardCompleted": 0,
-      "goals": [
-        "heart",
-        "isaac",
-        "satan",
-        "bossrush",
-        "bluebaby",
-        "lamb",
-        "megasatan",
-        "greedier",
-        "hush",
-        "delirium",
-        "mother",
-        "beast"
-      ]
-    },
-    {
-      "id": "char-24",
-      "name": "Tainted Azazel",
-      "unlocked": true,
-      "hardCompleted": 0,
-      "goals": [
-        "heart",
-        "isaac",
-        "satan",
-        "bossrush",
-        "bluebaby",
-        "lamb",
-        "megasatan",
-        "greedier",
-        "hush",
-        "delirium",
-        "mother",
-        "beast"
-      ]
-    },
-    {
-      "id": "char-25",
-      "name": "Tainted Lazarus",
-      "unlocked": true,
-      "hardCompleted": 0,
-      "goals": [
-        "heart",
-        "isaac",
-        "satan",
-        "bossrush",
-        "bluebaby",
-        "lamb",
-        "megasatan",
-        "greedier",
-        "hush",
-        "delirium",
-        "mother",
-        "beast"
-      ]
-    },
-    {
-      "id": "char-26",
-      "name": "Tainted Eden",
-      "unlocked": true,
-      "hardCompleted": 2,
-      "goals": [
-        "isaac",
-        "bossrush",
-        "bluebaby",
-        "lamb",
-        "megasatan",
-        "greedier",
-        "hush",
-        "delirium",
-        "mother",
-        "beast"
-      ]
-    },
-    {
-      "id": "char-27",
-      "name": "Tainted Lost",
-      "unlocked": true,
-      "hardCompleted": 0,
-      "goals": [
-        "heart",
-        "isaac",
-        "satan",
-        "bossrush",
-        "bluebaby",
-        "lamb",
-        "megasatan",
-        "greedier",
-        "hush",
-        "delirium",
-        "mother",
-        "beast"
-      ]
-    },
-    {
-      "id": "char-28",
-      "name": "Tainted Lilith",
-      "unlocked": true,
-      "hardCompleted": 7,
-      "goals": [
-        "satan",
-        "lamb",
-        "greedier",
-        "mother",
-        "beast"
-      ]
-    },
-    {
-      "id": "char-29",
-      "name": "Tainted Keeper",
-      "unlocked": false,
-      "hardCompleted": 0,
-      "goals": [
-        "heart",
-        "isaac",
-        "satan",
-        "bossrush",
-        "bluebaby",
-        "lamb",
-        "megasatan",
-        "greedier",
-        "hush",
-        "delirium",
-        "mother",
-        "beast"
-      ]
-    },
-    {
-      "id": "char-30",
-      "name": "Tainted Apollyon",
-      "unlocked": true,
-      "hardCompleted": 0,
-      "goals": [
-        "heart",
-        "isaac",
-        "satan",
-        "bossrush",
-        "bluebaby",
-        "lamb",
-        "megasatan",
-        "greedier",
-        "hush",
-        "delirium",
-        "mother",
-        "beast"
-      ]
-    },
-    {
-      "id": "char-31",
-      "name": "Tainted Forgotten",
-      "unlocked": true,
-      "hardCompleted": 0,
-      "goals": [
-        "heart",
-        "isaac",
-        "satan",
-        "bossrush",
-        "bluebaby",
-        "lamb",
-        "megasatan",
-        "greedier",
-        "hush",
-        "delirium",
-        "mother",
-        "beast"
-      ]
-    },
-    {
-      "id": "char-32",
-      "name": "Tainted Bethany",
-      "unlocked": false,
-      "hardCompleted": 0,
-      "goals": [
-        "heart",
-        "isaac",
-        "satan",
-        "bossrush",
-        "bluebaby",
-        "lamb",
-        "megasatan",
-        "greedier",
-        "hush",
-        "delirium",
-        "mother",
-        "beast"
-      ]
-    },
-    {
-      "id": "char-33",
-      "name": "Tainted Jacob",
-      "unlocked": false,
-      "hardCompleted": 0,
-      "goals": [
-        "heart",
-        "isaac",
-        "satan",
-        "bossrush",
-        "bluebaby",
-        "lamb",
-        "megasatan",
-        "greedier",
-        "hush",
-        "delirium",
-        "mother",
-        "beast"
-      ]
-    }
-  ],
-  "challenges": [
-    {
-      "id": "1",
-      "name": "Pitch Black",
-      "completed": true,
-      "unlocked": true
-    },
-    {
-      "id": "2",
-      "name": "High Brow",
-      "completed": true,
-      "unlocked": true
-    },
-    {
-      "id": "3",
-      "name": "Head Trauma",
-      "completed": true,
-      "unlocked": true
-    },
-    {
-      "id": "4",
-      "name": "Darkness Falls",
-      "completed": false,
-      "unlocked": true
-    },
-    {
-      "id": "5",
-      "name": "The Tank",
-      "completed": false,
-      "unlocked": true
-    },
-    {
-      "id": "6",
-      "name": "Solar System",
-      "completed": true,
-      "unlocked": true
-    },
-    {
-      "id": "7",
-      "name": "Suicide King",
-      "completed": false,
-      "unlocked": true
-    },
-    {
-      "id": "8",
-      "name": "Cat Got Your Tongue",
-      "completed": false,
-      "unlocked": true
-    },
-    {
-      "id": "9",
-      "name": "Demo Man",
-      "completed": false,
-      "unlocked": true
-    },
-    {
-      "id": "10",
-      "name": "Cursed!",
-      "completed": false,
-      "unlocked": true
-    },
-    {
-      "id": "11",
-      "name": "Glass Cannon",
-      "completed": false,
-      "unlocked": true
-    },
-    {
-      "id": "12",
-      "name": "When Life Gives You Lemons",
-      "completed": true,
-      "unlocked": true
-    },
-    {
-      "id": "13",
-      "name": "Beans!",
-      "completed": true,
-      "unlocked": true
-    },
-    {
-      "id": "14",
-      "name": "It's in the Cards",
-      "completed": true,
-      "unlocked": true
-    },
-    {
-      "id": "15",
-      "name": "Slow Roll",
-      "completed": true,
-      "unlocked": true
-    },
-    {
-      "id": "16",
-      "name": "Computer Savvy",
-      "completed": true,
-      "unlocked": true
-    },
-    {
-      "id": "17",
-      "name": "Waka Waka",
-      "completed": true,
-      "unlocked": true
-    },
-    {
-      "id": "18",
-      "name": "The Host",
-      "completed": true,
-      "unlocked": true
-    },
-    {
-      "id": "19",
-      "name": "The Family Man",
-      "completed": true,
-      "unlocked": true
-    },
-    {
-      "id": "20",
-      "name": "Purist",
-      "completed": false,
-      "unlocked": true
-    },
-    {
-      "id": "21",
-      "name": "XXXXXXXXL",
-      "completed": false,
-      "unlocked": true
-    },
-    {
-      "id": "22",
-      "name": "SPEED!",
-      "completed": false,
-      "unlocked": true
-    },
-    {
-      "id": "23",
-      "name": "Blue Bomber",
-      "completed": true,
-      "unlocked": true
-    },
-    {
-      "id": "24",
-      "name": "PAY TO PLAY",
-      "completed": false,
-      "unlocked": true
-    },
-    {
-      "id": "25",
-      "name": "Have a Heart",
-      "completed": false,
-      "unlocked": true
-    },
-    {
-      "id": "26",
-      "name": "I RULE!",
-      "completed": false,
-      "unlocked": true
-    },
-    {
-      "id": "27",
-      "name": "BRAINS!",
-      "completed": false,
-      "unlocked": true
-    },
-    {
-      "id": "28",
-      "name": "PRIDE DAY!",
-      "completed": false,
-      "unlocked": true
-    },
-    {
-      "id": "29",
-      "name": "Onan's Streak",
-      "completed": false,
-      "unlocked": true
-    },
-    {
-      "id": "30",
-      "name": "The Guardian",
-      "completed": false,
-      "unlocked": true
-    },
-    {
-      "id": "31",
-      "name": "Backasswards",
-      "completed": true,
-      "unlocked": true
-    },
-    {
-      "id": "32",
-      "name": "Aprils Fool",
-      "completed": true,
-      "unlocked": true
-    },
-    {
-      "id": "33",
-      "name": "Pokey Mans",
-      "completed": false,
-      "unlocked": true
-    },
-    {
-      "id": "34",
-      "name": "Ultra Hard",
-      "completed": false,
-      "unlocked": true
-    },
-    {
-      "id": "35",
-      "name": "Pong",
-      "completed": false,
-      "unlocked": true
-    },
-    {
-      "id": "36",
-      "name": "Scat Man",
-      "completed": true,
-      "unlocked": true
-    },
-    {
-      "id": "37",
-      "name": "Bloody Mary",
-      "completed": false,
-      "unlocked": true
-    },
-    {
-      "id": "38",
-      "name": "Baptism by Fire",
-      "completed": false,
-      "unlocked": true
-    },
-    {
-      "id": "39",
-      "name": "Isaac's Awakening",
-      "completed": true,
-      "unlocked": true
-    },
-    {
-      "id": "40",
-      "name": "Seeing Double",
-      "completed": false,
-      "unlocked": true
-    },
-    {
-      "id": "41",
-      "name": "Pica Run",
-      "completed": false,
-      "unlocked": false
-    },
-    {
-      "id": "42",
-      "name": "Hot Potato",
-      "completed": false,
-      "unlocked": true
-    },
-    {
-      "id": "43",
-      "name": "Cantripped!",
-      "completed": false,
-      "unlocked": true
-    },
-    {
-      "id": "44",
-      "name": "Red Redemption",
-      "completed": false,
-      "unlocked": false
-    },
-    {
-      "id": "45",
-      "name": "DELETE THIS",
-      "completed": false,
-      "unlocked": true
-    }
-  ]
+    "schemaVersion":  1,
+    "exact":  true,
+    "source":  "repentance-plus-persistent-save",
+    "updatedAt":  "2026-11-11T00:29:59.4861170Z",
+    "saveModifiedAt":  "2026-11-07T07:20:45.6725535Z",
+    "saveSlot":  1,
+    "achievementsUnlocked":  392,
+    "achievementsTotal":  641,
+    "hardMarksCompleted":  170,
+    "hardMarksTotal":  408,
+    "charactersUnlocked":  30,
+    "challengesCompleted":  17,
+    "challengesTotal":  45,
+    "characters":  [
+                       {
+                           "id":  "char-0",
+                           "name":  "Isaac",
+                           "unlocked":  true,
+                           "hardCompleted":  12,
+                           "goals":  [
+
+                                     ]
+                       },
+                       {
+                           "id":  "char-1",
+                           "name":  "Magdalene",
+                           "unlocked":  true,
+                           "hardCompleted":  11,
+                           "goals":  [
+                                         "greedier"
+                                     ]
+                       },
+                       {
+                           "id":  "char-2",
+                           "name":  "Cain",
+                           "unlocked":  true,
+                           "hardCompleted":  11,
+                           "goals":  [
+                                         "mother"
+                                     ]
+                       },
+                       {
+                           "id":  "char-3",
+                           "name":  "Judas",
+                           "unlocked":  true,
+                           "hardCompleted":  11,
+                           "goals":  [
+                                         "mother"
+                                     ]
+                       },
+                       {
+                           "id":  "char-4",
+                           "name":  "???",
+                           "unlocked":  true,
+                           "hardCompleted":  11,
+                           "goals":  [
+                                         "mother"
+                                     ]
+                       },
+                       {
+                           "id":  "char-5",
+                           "name":  "Eve",
+                           "unlocked":  true,
+                           "hardCompleted":  11,
+                           "goals":  [
+                                         "mother"
+                                     ]
+                       },
+                       {
+                           "id":  "char-6",
+                           "name":  "Samson",
+                           "unlocked":  true,
+                           "hardCompleted":  10,
+                           "goals":  [
+                                         "greedier",
+                                         "mother"
+                                     ]
+                       },
+                       {
+                           "id":  "char-7",
+                           "name":  "Azazel",
+                           "unlocked":  true,
+                           "hardCompleted":  12,
+                           "goals":  [
+
+                                     ]
+                       },
+                       {
+                           "id":  "char-8",
+                           "name":  "Lazarus",
+                           "unlocked":  true,
+                           "hardCompleted":  8,
+                           "goals":  [
+                                         "bossrush",
+                                         "megasatan",
+                                         "greedier",
+                                         "mother"
+                                     ]
+                       },
+                       {
+                           "id":  "char-9",
+                           "name":  "Eden",
+                           "unlocked":  true,
+                           "hardCompleted":  9,
+                           "goals":  [
+                                         "bossrush",
+                                         "greedier",
+                                         "hush"
+                                     ]
+                       },
+                       {
+                           "id":  "char-10",
+                           "name":  "The Lost",
+                           "unlocked":  true,
+                           "hardCompleted":  8,
+                           "goals":  [
+                                         "bossrush",
+                                         "greedier",
+                                         "mother",
+                                         "beast"
+                                     ]
+                       },
+                       {
+                           "id":  "char-11",
+                           "name":  "Lilith",
+                           "unlocked":  true,
+                           "hardCompleted":  8,
+                           "goals":  [
+                                         "isaac",
+                                         "bluebaby",
+                                         "megasatan",
+                                         "mother"
+                                     ]
+                       },
+                       {
+                           "id":  "char-12",
+                           "name":  "Keeper",
+                           "unlocked":  false,
+                           "hardCompleted":  0,
+                           "goals":  [
+                                         "heart",
+                                         "isaac",
+                                         "satan",
+                                         "bossrush",
+                                         "bluebaby",
+                                         "lamb",
+                                         "megasatan",
+                                         "greedier",
+                                         "hush",
+                                         "delirium",
+                                         "mother",
+                                         "beast"
+                                     ]
+                       },
+                       {
+                           "id":  "char-13",
+                           "name":  "Apollyon",
+                           "unlocked":  true,
+                           "hardCompleted":  8,
+                           "goals":  [
+                                         "bossrush",
+                                         "greedier",
+                                         "hush",
+                                         "mother"
+                                     ]
+                       },
+                       {
+                           "id":  "char-14",
+                           "name":  "The Forgotten",
+                           "unlocked":  true,
+                           "hardCompleted":  10,
+                           "goals":  [
+                                         "greedier",
+                                         "mother"
+                                     ]
+                       },
+                       {
+                           "id":  "char-15",
+                           "name":  "Bethany",
+                           "unlocked":  true,
+                           "hardCompleted":  6,
+                           "goals":  [
+                                         "bossrush",
+                                         "megasatan",
+                                         "greedier",
+                                         "hush",
+                                         "mother",
+                                         "beast"
+                                     ]
+                       },
+                       {
+                           "id":  "char-16",
+                           "name":  "Jacob \u0026 Esau",
+                           "unlocked":  true,
+                           "hardCompleted":  3,
+                           "goals":  [
+                                         "satan",
+                                         "bluebaby",
+                                         "lamb",
+                                         "megasatan",
+                                         "greedier",
+                                         "hush",
+                                         "delirium",
+                                         "mother",
+                                         "beast"
+                                     ]
+                       },
+                       {
+                           "id":  "char-17",
+                           "name":  "Tainted Isaac",
+                           "unlocked":  true,
+                           "hardCompleted":  10,
+                           "goals":  [
+                                         "greedier",
+                                         "mother"
+                                     ]
+                       },
+                       {
+                           "id":  "char-18",
+                           "name":  "Tainted Magdalene",
+                           "unlocked":  true,
+                           "hardCompleted":  0,
+                           "goals":  [
+                                         "heart",
+                                         "isaac",
+                                         "satan",
+                                         "bossrush",
+                                         "bluebaby",
+                                         "lamb",
+                                         "megasatan",
+                                         "greedier",
+                                         "hush",
+                                         "delirium",
+                                         "mother",
+                                         "beast"
+                                     ]
+                       },
+                       {
+                           "id":  "char-19",
+                           "name":  "Tainted Cain",
+                           "unlocked":  true,
+                           "hardCompleted":  0,
+                           "goals":  [
+                                         "heart",
+                                         "isaac",
+                                         "satan",
+                                         "bossrush",
+                                         "bluebaby",
+                                         "lamb",
+                                         "megasatan",
+                                         "greedier",
+                                         "hush",
+                                         "delirium",
+                                         "mother",
+                                         "beast"
+                                     ]
+                       },
+                       {
+                           "id":  "char-20",
+                           "name":  "Tainted Judas",
+                           "unlocked":  true,
+                           "hardCompleted":  2,
+                           "goals":  [
+                                         "isaac",
+                                         "satan",
+                                         "bossrush",
+                                         "bluebaby",
+                                         "lamb",
+                                         "megasatan",
+                                         "greedier",
+                                         "delirium",
+                                         "mother",
+                                         "beast"
+                                     ]
+                       },
+                       {
+                           "id":  "char-21",
+                           "name":  "Tainted ???",
+                           "unlocked":  true,
+                           "hardCompleted":  0,
+                           "goals":  [
+                                         "heart",
+                                         "isaac",
+                                         "satan",
+                                         "bossrush",
+                                         "bluebaby",
+                                         "lamb",
+                                         "megasatan",
+                                         "greedier",
+                                         "hush",
+                                         "delirium",
+                                         "mother",
+                                         "beast"
+                                     ]
+                       },
+                       {
+                           "id":  "char-22",
+                           "name":  "Tainted Eve",
+                           "unlocked":  true,
+                           "hardCompleted":  0,
+                           "goals":  [
+                                         "heart",
+                                         "isaac",
+                                         "satan",
+                                         "bossrush",
+                                         "bluebaby",
+                                         "lamb",
+                                         "megasatan",
+                                         "greedier",
+                                         "hush",
+                                         "delirium",
+                                         "mother",
+                                         "beast"
+                                     ]
+                       },
+                       {
+                           "id":  "char-23",
+                           "name":  "Tainted Samson",
+                           "unlocked":  true,
+                           "hardCompleted":  0,
+                           "goals":  [
+                                         "heart",
+                                         "isaac",
+                                         "satan",
+                                         "bossrush",
+                                         "bluebaby",
+                                         "lamb",
+                                         "megasatan",
+                                         "greedier",
+                                         "hush",
+                                         "delirium",
+                                         "mother",
+                                         "beast"
+                                     ]
+                       },
+                       {
+                           "id":  "char-24",
+                           "name":  "Tainted Azazel",
+                           "unlocked":  true,
+                           "hardCompleted":  0,
+                           "goals":  [
+                                         "heart",
+                                         "isaac",
+                                         "satan",
+                                         "bossrush",
+                                         "bluebaby",
+                                         "lamb",
+                                         "megasatan",
+                                         "greedier",
+                                         "hush",
+                                         "delirium",
+                                         "mother",
+                                         "beast"
+                                     ]
+                       },
+                       {
+                           "id":  "char-25",
+                           "name":  "Tainted Lazarus",
+                           "unlocked":  true,
+                           "hardCompleted":  0,
+                           "goals":  [
+                                         "heart",
+                                         "isaac",
+                                         "satan",
+                                         "bossrush",
+                                         "bluebaby",
+                                         "lamb",
+                                         "megasatan",
+                                         "greedier",
+                                         "hush",
+                                         "delirium",
+                                         "mother",
+                                         "beast"
+                                     ]
+                       },
+                       {
+                           "id":  "char-26",
+                           "name":  "Tainted Eden",
+                           "unlocked":  true,
+                           "hardCompleted":  2,
+                           "goals":  [
+                                         "isaac",
+                                         "bossrush",
+                                         "bluebaby",
+                                         "lamb",
+                                         "megasatan",
+                                         "greedier",
+                                         "hush",
+                                         "delirium",
+                                         "mother",
+                                         "beast"
+                                     ]
+                       },
+                       {
+                           "id":  "char-27",
+                           "name":  "Tainted Lost",
+                           "unlocked":  true,
+                           "hardCompleted":  0,
+                           "goals":  [
+                                         "heart",
+                                         "isaac",
+                                         "satan",
+                                         "bossrush",
+                                         "bluebaby",
+                                         "lamb",
+                                         "megasatan",
+                                         "greedier",
+                                         "hush",
+                                         "delirium",
+                                         "mother",
+                                         "beast"
+                                     ]
+                       },
+                       {
+                           "id":  "char-28",
+                           "name":  "Tainted Lilith",
+                           "unlocked":  true,
+                           "hardCompleted":  7,
+                           "goals":  [
+                                         "satan",
+                                         "lamb",
+                                         "greedier",
+                                         "mother",
+                                         "beast"
+                                     ]
+                       },
+                       {
+                           "id":  "char-29",
+                           "name":  "Tainted Keeper",
+                           "unlocked":  false,
+                           "hardCompleted":  0,
+                           "goals":  [
+                                         "heart",
+                                         "isaac",
+                                         "satan",
+                                         "bossrush",
+                                         "bluebaby",
+                                         "lamb",
+                                         "megasatan",
+                                         "greedier",
+                                         "hush",
+                                         "delirium",
+                                         "mother",
+                                         "beast"
+                                     ]
+                       },
+                       {
+                           "id":  "char-30",
+                           "name":  "Tainted Apollyon",
+                           "unlocked":  true,
+                           "hardCompleted":  0,
+                           "goals":  [
+                                         "heart",
+                                         "isaac",
+                                         "satan",
+                                         "bossrush",
+                                         "bluebaby",
+                                         "lamb",
+                                         "megasatan",
+                                         "greedier",
+                                         "hush",
+                                         "delirium",
+                                         "mother",
+                                         "beast"
+                                     ]
+                       },
+                       {
+                           "id":  "char-31",
+                           "name":  "Tainted Forgotten",
+                           "unlocked":  true,
+                           "hardCompleted":  0,
+                           "goals":  [
+                                         "heart",
+                                         "isaac",
+                                         "satan",
+                                         "bossrush",
+                                         "bluebaby",
+                                         "lamb",
+                                         "megasatan",
+                                         "greedier",
+                                         "hush",
+                                         "delirium",
+                                         "mother",
+                                         "beast"
+                                     ]
+                       },
+                       {
+                           "id":  "char-32",
+                           "name":  "Tainted Bethany",
+                           "unlocked":  false,
+                           "hardCompleted":  0,
+                           "goals":  [
+                                         "heart",
+                                         "isaac",
+                                         "satan",
+                                         "bossrush",
+                                         "bluebaby",
+                                         "lamb",
+                                         "megasatan",
+                                         "greedier",
+                                         "hush",
+                                         "delirium",
+                                         "mother",
+                                         "beast"
+                                     ]
+                       },
+                       {
+                           "id":  "char-33",
+                           "name":  "Tainted Jacob",
+                           "unlocked":  false,
+                           "hardCompleted":  0,
+                           "goals":  [
+                                         "heart",
+                                         "isaac",
+                                         "satan",
+                                         "bossrush",
+                                         "bluebaby",
+                                         "lamb",
+                                         "megasatan",
+                                         "greedier",
+                                         "hush",
+                                         "delirium",
+                                         "mother",
+                                         "beast"
+                                     ]
+                       }
+                   ],
+    "challenges":  [
+                       {
+                           "id":  "1",
+                           "name":  "Pitch Black",
+                           "unlocked":  true,
+                           "completed":  true
+                       },
+                       {
+                           "id":  "2",
+                           "name":  "High Brow",
+                           "unlocked":  true,
+                           "completed":  true
+                       },
+                       {
+                           "id":  "3",
+                           "name":  "Head Trauma",
+                           "unlocked":  true,
+                           "completed":  true
+                       },
+                       {
+                           "id":  "4",
+                           "name":  "Darkness Falls",
+                           "unlocked":  true,
+                           "completed":  false
+                       },
+                       {
+                           "id":  "5",
+                           "name":  "The Tank",
+                           "unlocked":  true,
+                           "completed":  false
+                       },
+                       {
+                           "id":  "6",
+                           "name":  "Solar System",
+                           "unlocked":  true,
+                           "completed":  true
+                       },
+                       {
+                           "id":  "7",
+                           "name":  "Suicide King",
+                           "unlocked":  true,
+                           "completed":  false
+                       },
+                       {
+                           "id":  "8",
+                           "name":  "Cat Got Your Tongue",
+                           "unlocked":  true,
+                           "completed":  false
+                       },
+                       {
+                           "id":  "9",
+                           "name":  "Demo Man",
+                           "unlocked":  true,
+                           "completed":  false
+                       },
+                       {
+                           "id":  "10",
+                           "name":  "Cursed!",
+                           "unlocked":  true,
+                           "completed":  false
+                       },
+                       {
+                           "id":  "11",
+                           "name":  "Glass Cannon",
+                           "unlocked":  true,
+                           "completed":  false
+                       },
+                       {
+                           "id":  "12",
+                           "name":  "When Life Gives You Lemons",
+                           "unlocked":  true,
+                           "completed":  true
+                       },
+                       {
+                           "id":  "13",
+                           "name":  "Beans!",
+                           "unlocked":  true,
+                           "completed":  true
+                       },
+                       {
+                           "id":  "14",
+                           "name":  "It\u0027s in the Cards",
+                           "unlocked":  true,
+                           "completed":  true
+                       },
+                       {
+                           "id":  "15",
+                           "name":  "Slow Roll",
+                           "unlocked":  true,
+                           "completed":  true
+                       },
+                       {
+                           "id":  "16",
+                           "name":  "Computer Savvy",
+                           "unlocked":  true,
+                           "completed":  true
+                       },
+                       {
+                           "id":  "17",
+                           "name":  "Waka Waka",
+                           "unlocked":  true,
+                           "completed":  true
+                       },
+                       {
+                           "id":  "18",
+                           "name":  "The Host",
+                           "unlocked":  true,
+                           "completed":  true
+                       },
+                       {
+                           "id":  "19",
+                           "name":  "The Family Man",
+                           "unlocked":  true,
+                           "completed":  true
+                       },
+                       {
+                           "id":  "20",
+                           "name":  "Purist",
+                           "unlocked":  true,
+                           "completed":  false
+                       },
+                       {
+                           "id":  "21",
+                           "name":  "XXXXXXXXL",
+                           "unlocked":  true,
+                           "completed":  false
+                       },
+                       {
+                           "id":  "22",
+                           "name":  "SPEED!",
+                           "unlocked":  true,
+                           "completed":  false
+                       },
+                       {
+                           "id":  "23",
+                           "name":  "Blue Bomber",
+                           "unlocked":  true,
+                           "completed":  true
+                       },
+                       {
+                           "id":  "24",
+                           "name":  "PAY TO PLAY",
+                           "unlocked":  true,
+                           "completed":  false
+                       },
+                       {
+                           "id":  "25",
+                           "name":  "Have a Heart",
+                           "unlocked":  true,
+                           "completed":  false
+                       },
+                       {
+                           "id":  "26",
+                           "name":  "I RULE!",
+                           "unlocked":  true,
+                           "completed":  false
+                       },
+                       {
+                           "id":  "27",
+                           "name":  "BRAINS!",
+                           "unlocked":  true,
+                           "completed":  false
+                       },
+                       {
+                           "id":  "28",
+                           "name":  "PRIDE DAY!",
+                           "unlocked":  true,
+                           "completed":  false
+                       },
+                       {
+                           "id":  "29",
+                           "name":  "Onan\u0027s Streak",
+                           "unlocked":  true,
+                           "completed":  false
+                       },
+                       {
+                           "id":  "30",
+                           "name":  "The Guardian",
+                           "unlocked":  true,
+                           "completed":  false
+                       },
+                       {
+                           "id":  "31",
+                           "name":  "Backasswards",
+                           "unlocked":  true,
+                           "completed":  true
+                       },
+                       {
+                           "id":  "32",
+                           "name":  "Aprils Fool",
+                           "unlocked":  true,
+                           "completed":  true
+                       },
+                       {
+                           "id":  "33",
+                           "name":  "Pokey Mans",
+                           "unlocked":  true,
+                           "completed":  false
+                       },
+                       {
+                           "id":  "34",
+                           "name":  "Ultra Hard",
+                           "unlocked":  true,
+                           "completed":  false
+                       },
+                       {
+                           "id":  "35",
+                           "name":  "Pong",
+                           "unlocked":  true,
+                           "completed":  false
+                       },
+                       {
+                           "id":  "36",
+                           "name":  "Scat Man",
+                           "unlocked":  true,
+                           "completed":  true
+                       },
+                       {
+                           "id":  "37",
+                           "name":  "Bloody Mary",
+                           "unlocked":  true,
+                           "completed":  false
+                       },
+                       {
+                           "id":  "38",
+                           "name":  "Baptism by Fire",
+                           "unlocked":  true,
+                           "completed":  false
+                       },
+                       {
+                           "id":  "39",
+                           "name":  "Isaac\u0027s Awakening",
+                           "unlocked":  true,
+                           "completed":  true
+                       },
+                       {
+                           "id":  "40",
+                           "name":  "Seeing Double",
+                           "unlocked":  true,
+                           "completed":  false
+                       },
+                       {
+                           "id":  "41",
+                           "name":  "Pica Run",
+                           "unlocked":  false,
+                           "completed":  false
+                       },
+                       {
+                           "id":  "42",
+                           "name":  "Hot Potato",
+                           "unlocked":  true,
+                           "completed":  false
+                       },
+                       {
+                           "id":  "43",
+                           "name":  "Cantripped!",
+                           "unlocked":  true,
+                           "completed":  false
+                       },
+                       {
+                           "id":  "44",
+                           "name":  "Red Redemption",
+                           "unlocked":  false,
+                           "completed":  false
+                       },
+                       {
+                           "id":  "45",
+                           "name":  "DELETE THIS",
+                           "unlocked":  true,
+                           "completed":  false
+                       }
+                   ]
 }
