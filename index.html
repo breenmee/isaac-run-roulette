@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#1c151c">
+<title>Isaac Run Roulette · Repentance+</title>
+<style>
+:root{--bg:#1d171b;--panel:#2e252a;--border:#705549;--ink:#f7e5cb;--muted:#bea995;--gold:#f5c371;--accent:#a9d5b2;--red:#eba3a0;color-scheme:dark}
+*{box-sizing:border-box}html,body{min-height:100%;margin:0}body{background:radial-gradient(ellipse at 50% -5%,#4b3039 0,#261a20 38%,var(--bg) 73%);color:var(--ink);font:15px/1.45 system-ui,-apple-system,'Segoe UI',sans-serif}
+main{max-width:1050px;padding:22px 17px 65px;margin:0 auto}header{text-align:center;padding:22px 0 26px}h1,h2{font-family:Georgia,'Times New Roman',serif;line-height:1.1}h1{font-size:clamp(38px,6.6vw,69px);letter-spacing:-2px;color:#f7d9a5;margin:6px 0 8px;text-shadow:0 3px #50342f}header p{margin:0;color:var(--muted)}
+.eyebrow{text-transform:uppercase;letter-spacing:2px;color:var(--gold);font-size:11px;font-weight:800}.statusbar{display:flex;justify-content:space-between;align-items:center;gap:14px;flex-wrap:wrap;border:1px solid var(--border);background:#282125;border-radius:13px;padding:12px 15px;margin-bottom:19px}.status{font-weight:800;border-radius:16px;background:#39503a;color:#e1f6d8;display:inline-flex;font-size:11px;text-transform:uppercase;letter-spacing:.6px;padding:4px 10px}.status.warning{background:#543b2e;color:#ffe3b0}.status.error{background:#5a3237;color:#ffe0df}.statusinfo{font-size:12px;color:var(--muted);margin-top:5px}.actions{display:flex;gap:8px;flex-wrap:wrap}
+button{font:inherit;cursor:pointer;border:1px solid #b08558;border-radius:10px;padding:11px 16px;background:linear-gradient(#fbe2b1,#dfaa63);color:#36221e;font-weight:850;box-shadow:0 3px #966c48;transition:filter .1s,transform .1s}button:active:not(:disabled){transform:translateY(2px);box-shadow:0 1px #966c48}button:hover:not(:disabled){filter:brightness(1.07)}button:disabled{opacity:.4;cursor:not-allowed}button.secondary{background:#3b3036;border:1px solid #94775d;color:#f6dfb5;box-shadow:none}button.compact{padding:8px 11px;font-size:12px}
+.stats{display:flex;gap:10px;flex-wrap:wrap;margin:0 0 19px}.stat{flex:1 1 140px;background:#2b2227;border:1px solid #684f44;border-radius:11px;padding:10px 13px}.stat strong{font-size:22px;display:block;font-variant-numeric:tabular-nums;color:#f8dca9}.stat span{font-size:11px;color:var(--muted)}
+.wheels{display:grid;grid-template-columns:1fr 1fr;gap:18px}.panel{background:linear-gradient(180deg,#382932,#291f26);border:1px solid #82604c;border-radius:18px;padding:18px;box-shadow:0 12px 26px #0a070b5c;min-width:0}.panel h2{font-size:27px;margin:5px 0 7px;color:#f5d8aa}.panel .description{font-size:13px;color:var(--muted);min-height:39px;margin:0 0 6px}
+.wheelbox{max-width:440px;position:relative;margin:8px auto;aspect-ratio:1}.wheelbox svg{width:100%;height:100%;display:block;filter:drop-shadow(0px 5px 5px #0009)}.wheelbox .pointer{position:absolute;z-index:5;left:50%;top:2%;transform:translateX(-50%);border-left:16px solid transparent;border-right:16px solid transparent;border-top:35px solid #fff2c6;filter:drop-shadow(0 1px 2px #1c0e15)}.wheelbox .cap{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);background:#34262f;border:4px solid #ebca94;border-radius:50%;width:60px;height:60px;display:grid;place-items:center;font-size:22px;color:#efc37c;box-shadow:0 0 0 2px #654d41}
+.selection{min-height:81px;border:1px dashed #88715d;border-radius:12px;padding:10px;text-align:center;display:flex;flex-direction:column;gap:3px;justify-content:center;background:#2b2328}.selection .kicker{font-size:11px;color:#b5a28f;letter-spacing:.8px;text-transform:uppercase}.selection strong{font-size:20px;line-height:1.2;color:#ffe2b6}.selection span{font-size:12px;color:#b9cba8}.buttons{display:flex;gap:9px;flex-wrap:wrap;justify-content:center;margin-top:12px}
+.result{display:none;border:1px solid #ba8d55;border-radius:16px;background:linear-gradient(120deg,#583a34,#332931);padding:20px;margin-top:19px}.result.visible{display:block}.result h2{font-size:clamp(25px,4vw,35px);color:#f6d596;margin:5px 0}.result p{margin:6px 0;color:#ead7bd}.resultfooter{display:flex;gap:12px;justify-content:space-between;flex-wrap:wrap;align-items:center;margin-top:16px}.note{font-size:13px;color:var(--muted);margin:16px 2px}.infogrid{display:grid;grid-template-columns:1fr 1fr;gap:12px}.info{border:1px solid #60504d;border-radius:12px;padding:14px;background:#252026}.info strong{color:#eed0a2}.info p{color:var(--muted);font-size:12px;margin:7px 0 0}.footer{font-size:11px;color:#a18c7d;text-align:center;margin-top:26px}a{color:var(--gold)}.hidden{display:none!important}
+@media(max-width:760px){main{padding:12px 11px 50px}.wheels,.infogrid{grid-template-columns:1fr}.panel{padding:13px}.panel .description{min-height:0}.wheelbox{max-width:385px}.resultfooter button{width:100%}header{padding:17px 0 23px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<main>
+<header><div class="eyebrow">The Binding of Isaac · Repentance+</div><h1>Run Roulette</h1><p>Stop choosing. Start spinning.</p></header>
+<div class="statusbar"><div><span class="status warning" id="status">Loading progress…</span><div class="statusinfo" id="statusInfo">Reading your latest published save snapshot.</div></div><div class="actions"><button class="secondary compact" id="refresh">↻ Refresh progress</button></div></div>
+<div class="stats"><div class="stat"><strong id="statMarks">—</strong><span>Hard/Greedier marks</span></div><div class="stat"><strong id="statCharacters">—</strong><span>Characters in the wheel</span></div><div class="stat"><strong id="statChallenges">—</strong><span>Available unfinished challenges</span></div></div>
+<div class="wheels">
+<section class="panel"><div class="eyebrow">01 / Who's up?</div><h2>Character wheel</h2><p class="description">Unlocked characters with unfinished Hard marks. The Challenges slice has twice the weight of a single character.</p><div class="wheelbox"><div class="pointer"></div><svg viewBox="0 0 440 440" role="img" aria-label="Character roulette wheel"><circle cx="220" cy="220" r="207" fill="#170f17" stroke="#ba925f" stroke-width="8"/><g id="characterSegments" style="transform-origin:220px 220px"></g><circle cx="220" cy="220" r="194" fill="none" stroke="#efd29a" stroke-width="2"/></svg><div class="cap">✦</div></div><div class="selection"><span class="kicker">Character</span><strong id="characterSelection">—</strong><span id="characterSub">Spin to pick a character</span></div><div class="buttons"><button id="spinCharacter">Spin character</button><button class="secondary" id="rerollCharacter" disabled>Reroll</button></div></section>
+<section class="panel"><div class="eyebrow">02 / What's the goal?</div><h2 id="goalHeading">Completion wheel</h2><p class="description" id="goalDescription">Spin after choosing a character. Only unfinished Hard marks and Greedier appear.</p><div class="wheelbox"><div class="pointer"></div><svg viewBox="0 0 440 440" role="img" aria-label="Goal roulette wheel"><circle cx="220" cy="220" r="207" fill="#170f17" stroke="#ba925f" stroke-width="8"/><g id="goalSegments" style="transform-origin:220px 220px"></g><circle cx="220" cy="220" r="194" fill="none" stroke="#efd29a" stroke-width="2"/></svg><div class="cap">⚔</div></div><div class="selection"><span class="kicker">Objective</span><strong id="goalSelection">—</strong><span id="goalSub">Choose a character first</span></div><div class="buttons"><button id="spinGoal" disabled>Spin objective</button><button class="secondary" id="rerollGoal" disabled>Reroll</button></div></section>
+</div>
+<div class="result" id="result"><div class="eyebrow">Your next run</div><h2 id="resultName"></h2><p id="resultDescription"></p><div class="resultfooter"><span class="statusinfo" id="resultMeta"></span><button class="secondary" id="checkCompleted">Finished it? Refresh data ↻</button></div></div>
+<p class="note" id="dataNote">The wheel never changes Isaac's save or counts a result as completed. Complete your run, sync from your PC when convenient, then refresh this page.</p>
+<div class="infogrid"><div class="info"><strong>Hard mode only</strong><p>Regular boss marks must be completed on Hard. Greedier is included (not regular Greed), and only when that mode is unlocked. Challenges use their native difficulty.</p></div><div class="info"><strong>Steam Cloud → PC → website</strong><p>This page reads <code>data/progress.json</code> from GitHub Pages. Run the Windows sync helper after your PC receives a new save. Your raw .dat file stays on your PC.</p></div></div>
+<div class="footer">Fan-made roulette · Not affiliated with Nicalis, Edmund McMillen or Valve · Initial progress and later synced progress are publicly visible in this repository.</div>
+</main>
+<script>
+(()=>{'use strict';
+const $=id=>document.getElementById(id);
+const SVG='http://www.w3.org/2000/svg';
+const COLORS=['#9d5c55','#b58e61','#6e8e85','#8a739c','#ae7a72','#7d9a71','#b18999','#658ea2','#c09f77','#a17667','#847c9b','#6b9a8c'];
+const MARKS={heart:['Mom’s Heart / It Lives!','Womb II'],bossrush:['Boss Rush','Defeat Mom within 20 minutes'],isaac:['Isaac','Cathedral'],satan:['Satan','Sheol'],bluebaby:['??? (Blue Baby)','The Chest'],lamb:['The Lamb','Dark Room'],megasatan:['Mega Satan','Reach and defeat Mega Satan'],hush:['Hush','Reach Blue Womb and defeat Hush'],delirium:['Delirium','The Void'],mother:['Mother','Corpse II'],beast:['The Beast','Home / Ascent route'],greedier:['Ultra Greedier','Greedier mode (not regular Greed)']};
+const storageKey='isaac-roulette-active-v1';
+let data=null,chosenCharacter=null,chosenGoal=null,spinning=false,loading=false;
+let angle={character:0,goal:0},wheels={character:[],goal:[]};
+const random=()=>{if(window.crypto&&crypto.getRandomValues){const a=new Uint32Array(1);crypto.getRandomValues(a);return a[0]/4294967296;}return Math.random();};
+function el(type,attrs={},value){const node=document.createElementNS(SVG,type);for(const [k,v] of Object.entries(attrs))node.setAttribute(k,v);if(value!==undefined)node.textContent=value;return node;}
+function coords(r,a){const rad=a*Math.PI/180;return [220+r*Math.sin(rad),220-r*Math.cos(rad)];}
+function sector(s,e){const a=coords(190,s+.0001),b=coords(190,e-.0001);return `M220 220 L${a[0]} ${a[1]} A190 190 0 ${e-s>180?1:0} 1 ${b[0]} ${b[1]} Z`;}
+function smallName(s){return s.replace(/^Tainted /,'T. ').replace('Mom’s Heart / It Lives!','Heart').replace('??? (Blue Baby)','???').replace('Ultra Greedier','Greedier').replace('The Forgotten','Forgotten').replace('The Beast','Beast');}
+function renderWheel(type,entries){const group=$(type==='character'?'characterSegments':'goalSegments');group.replaceChildren();const total=entries.reduce((v,e)=>v+e.weight,0);wheels[type]=[];
+ if(!entries.length){group.append(el('circle',{cx:220,cy:220,r:190,fill:'#54454b'}));return;}
+ let start=0;for(let i=0;i<entries.length;i++){const e=entries[i],end=start+360*e.weight/total,mid=(start+end)/2;
+  if(entries.length===1)group.append(el('circle',{cx:220,cy:220,r:190,fill:COLORS[0]}));
+  else group.append(el('path',{d:sector(start,end),fill:COLORS[i%COLORS.length],stroke:'#e0c79c','stroke-width':entries.length>20?'.5':'1.5'}));
+  let [x,y]=coords(entries.length>17?145:132,mid);const name=smallName(e.label);const text=el('text',{x,y,fill:'#241719','font-size':entries.length>25?'8.1':entries.length>18?'9.5':'12','font-weight':'800','text-anchor':'middle','dominant-baseline':'middle',transform:`rotate(${mid>90&&mid<270?mid-180:mid},${x},${y})`},name);group.append(text);wheels[type].push({...e,center:mid});start=end;
+ }
+ group.style.transform=`rotate(${angle[type]}deg)`;
+}
+function availableCharacters(){if(!data)return[];const list=data.characters.filter(c=>c.unlocked&&c.goals.length>0).map(c=>({id:c.id,label:c.name,weight:1}));if(data.challenges.some(c=>c.unlocked&&!c.completed))list.push({id:'challenges',label:'Challenges',weight:2});return list;}
+function availableGoals(){if(!chosenCharacter||!data)return[];if(chosenCharacter==='challenges')return data.challenges.filter(c=>c.unlocked&&!c.completed).map(c=>({id:'challenge-'+c.id,label:c.name,weight:1}));const character=data.characters.find(c=>c.id===chosenCharacter);return character?character.goals.filter(key=>MARKS[key]).map(key=>({id:key,label:MARKS[key][0],weight:1})):[];}
+function saveChoice(){try{localStorage.setItem(storageKey,JSON.stringify({character:chosenCharacter,goal:chosenGoal}));}catch{}}
+function loadChoice(){try{return JSON.parse(localStorage.getItem(storageKey)||'null')}catch{return null}}
+function labelCharacter(){if(chosenCharacter==='challenges')return 'Challenges';return data?.characters.find(c=>c.id===chosenCharacter)?.name||'—';}
+function selectedUI(){const text=labelCharacter();$('characterSelection').textContent=chosenCharacter?text:'—';$('characterSub').textContent=chosenCharacter?(chosenCharacter==='challenges'?'2× a single character’s chance':'Unlocked · incomplete Hard marks'):'Spin to pick a character';
+ $('goalHeading').textContent=chosenCharacter==='challenges'?'Challenge wheel':'Completion wheel';$('goalDescription').textContent=chosenCharacter==='challenges'?'Only unlocked, unfinished challenges.':'Spin after choosing a character. Only unfinished Hard marks and Greedier appear.';
+ const goal=availableGoals().find(c=>c.id===chosenGoal);$('goalSelection').textContent=goal?.label||'—';$('goalSub').textContent=goal?(chosenCharacter==='challenges'?'Incomplete challenge':'Hard / Greedier mark'):'Spin for an objective';$('result').classList.toggle('visible',!!goal);
+ if(goal){$('resultName').textContent=labelCharacter()+' → '+goal.label;$('resultDescription').textContent=chosenCharacter==='challenges'?'Finish this challenge. It stays on the wheel until a later save confirms completion.':MARKS[goal.id]?.[1]||'Complete this mark.';$('resultMeta').textContent=chosenCharacter==='challenges'?'Challenge difficulty is fixed by the game':goal.id==='greedier'?'Play Greedier mode':'Play Hard Mode';}
+}
+function updateButtons(){$('spinCharacter').disabled=spinning||!data||availableCharacters().length===0;$('rerollCharacter').disabled=spinning||!chosenCharacter||availableCharacters().length<2;$('spinGoal').disabled=spinning||!chosenCharacter||availableGoals().length===0;$('rerollGoal').disabled=spinning||!chosenGoal||availableGoals().length<2;$('refresh').disabled=loading||spinning;}
+function renderAll(){renderWheel('character',availableCharacters());renderWheel('goal',availableGoals());selectedUI();updateButtons();}
+function spin(type,isReroll=false){if(spinning||!data)return;const entries=(type==='character'?availableCharacters():availableGoals());if(!entries.length)return;
+ const prev=type==='character'?chosenCharacter:chosenGoal;let candidates=(isReroll&&entries.length>1)?entries.filter(x=>x.id!==prev):entries;const total=candidates.reduce((s,e)=>s+e.weight,0);let pickNumber=random()*total,choice=candidates[candidates.length-1];for(const e of candidates){pickNumber-=e.weight;if(pickNumber<0){choice=e;break;}}
+ const segment=wheels[type].find(e=>e.id===choice.id);if(!segment)return;spinning=true;updateButtons();const current=angle[type];const target=(360-segment.center)%360;const delta=((target-current%360)%360+360)%360;angle[type]=current+360*6+delta;
+ const group=$(type==='character'?'characterSegments':'goalSegments');const reduced=window.matchMedia('(prefers-reduced-motion: reduce)').matches;const duration=reduced?100:3450;group.style.transition=`transform ${duration}ms cubic-bezier(.12,.82,.15,1)`;requestAnimationFrame(()=>group.style.transform=`rotate(${angle[type]}deg)`);
+ setTimeout(()=>{if(type==='character'){chosenCharacter=choice.id;chosenGoal=null;angle.goal=0;}else chosenGoal=choice.id;spinning=false;saveChoice();renderAll();},duration+40);
+}
+function validate(json){if(!json||json.schemaVersion!==1||json.exact!==true||!Array.isArray(json.characters)||!Array.isArray(json.challenges))throw Error('Invalid progress.json. The wheel requires a verified Repentance+ save snapshot.');const ids=new Set();for(const c of json.characters){if(typeof c.id!=='string'||typeof c.name!=='string'||typeof c.unlocked!=='boolean'||!Array.isArray(c.goals)||c.goals.some(x=>!Object.hasOwn(MARKS,x))||ids.has(c.id))throw Error('Invalid character data');ids.add(c.id);}if(json.characters.length!==34)throw Error('Expected 34 characters.');for(const c of json.challenges){if(typeof c.id!=='string'||typeof c.name!=='string'||typeof c.unlocked!=='boolean'||typeof c.completed!=='boolean')throw Error('Invalid challenge record');}if(json.challenges.length!==45)throw Error('Expected 45 challenges.');return json;}
+function applyData(snapshot){const previous=loadChoice(),wasChosen=chosenCharacter?{character:chosenCharacter,goal:chosenGoal}:previous;data=validate(snapshot);$('statMarks').textContent=`${data.hardMarksCompleted} / ${data.hardMarksTotal}`;$('statCharacters').textContent=availableCharacters().filter(x=>x.id!=='challenges').length;$('statChallenges').textContent=data.challenges.filter(x=>x.unlocked&&!x.completed).length;
+ const saveTime=data.saveModifiedAt?new Date(data.saveModifiedAt).toLocaleString():'not recorded';const uploaded=data.updatedAt?new Date(data.updatedAt).toLocaleString():'initial uploaded snapshot';$('status').className='status'+(!data.updatedAt?' warning':'');$('status').textContent=data.updatedAt?'Published save data':'Initial imported save';$('statusInfo').textContent=`Updated: ${uploaded} · PC save modified: ${saveTime}`;
+ if(wasChosen&&availableCharacters().some(c=>c.id===wasChosen.character)){chosenCharacter=wasChosen.character;const possibilities=availableGoals();chosenGoal=possibilities.some(c=>c.id===wasChosen.goal)?wasChosen.goal:null;}else{chosenCharacter=null;chosenGoal=null;}saveChoice();renderAll();
+ $('dataNote').textContent='You can spin on any device, even with your PC off. The website reads the latest published progress. After winning, run Windows Sync on your PC once its save is current, then tap Refresh progress here. Refreshing does not itself read Steam Cloud.';
+}
+async function refresh(){if(spinning||loading)return;loading=true;updateButtons();try{const resp=await fetch(`./data/progress.json?v=${Date.now()}`,{cache:'no-store'});if(!resp.ok)throw Error(`HTTP ${resp.status}`);applyData(await resp.json());}catch(e){$('status').className='status error';$('status').textContent='Unable to load progress';$('statusInfo').textContent=`${e.message} — check GitHub Pages deployment and data/progress.json`;}finally{loading=false;updateButtons();}}
+$('spinCharacter').addEventListener('click',()=>spin('character'));
+$('rerollCharacter').addEventListener('click',()=>spin('character',true));
+$('spinGoal').addEventListener('click',()=>spin('goal'));
+$('rerollGoal').addEventListener('click',()=>spin('goal',true));
+$('refresh').addEventListener('click',refresh);
+$('checkCompleted').addEventListener('click',refresh);
+document.addEventListener('visibilitychange',()=>{if(!document.hidden)refresh();});
+setInterval(()=>{if(!document.hidden)refresh();},120000);
+refresh();
+})();
+</script>
+</body>
+</html>
